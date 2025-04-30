@@ -34,6 +34,3 @@ class RegularShapes:
         self.area = self.sides*self.side_value
 
 
-test = Calculator()
-test.display_shapes()
-print(test.take_user_input())

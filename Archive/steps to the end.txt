@@ -8,4 +8,12 @@ Tue 29/4/2025
 Q1- first question came in my mind should i make one class for all and function for each shape, or class for each one
     chatGPT says the best practics is a perant class and chiled class for each shape
     I'd preferr to create one class for regular shpes and another one for unregular shpes
+
+Wed 30/4/2025
+
+Note- I think i need to review some math functions and topics
+      define/determine the stucture that i will implement
+      maybe i will build many versions of this app
+
+
     
