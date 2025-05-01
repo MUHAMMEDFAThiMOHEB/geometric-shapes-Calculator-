@@ -15,5 +15,14 @@ Note- I think i need to review some math functions and topics
       define/determine the stucture that i will implement
       maybe i will build many versions of this app
 
+decided that the project will contain only [square, triangle, rectangel, rhombus].
+in the future, new shapes will be added, and other improvments 
+
+--> the super class created
+--> square class created
+--> take_user_choise function generated
+--> choicess function generated
+--> add information of all included shapes as a comment
+
 
     
