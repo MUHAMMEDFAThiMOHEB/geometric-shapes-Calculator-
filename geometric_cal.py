@@ -11,8 +11,8 @@ class Square(GeometricShape):
     def __init__(self):
         self.side = None
 
-    def take_user_input(self):
-        self.side = float(input("Enter the length of square side: "))
+    def user_input(self):
+        self.side = int(input("Enter the length of square side: "))
         return self.side
     
     def info(self):
@@ -23,6 +23,30 @@ class Square(GeometricShape):
         perimeter = self.side * 4
         area = self.side ** 2
         return f"Square perimeter = {perimeter}\nSquare area = {area}"
+    
+class Triangle(GeometricShape):
+
+    def __init__(self):
+        self.side1 = None
+        self.side2 = None
+        self.base = None
+        self.height = None
+
+    def user_input(self):
+        self.side1 = int(input("Enter the length of the first side: "))
+        self.side2 = int(input("Enter the length of the second side: "))
+        self.base = int(input("Enter the length of the triangle base: "))
+        self.height = int(input("Enter the height of the triangle: "))
+        return self.side1, self.side2, self.side3
+    
+    def info(self):
+        print(f"Triangle: A polygon with three sides;")
+        print(f"Perimeter = sum of all sides, Area = (base × height) ÷ 2")
+    
+    def calculates(self):
+        perimeter = sum(self.side1, self.side2, self.side3)
+        area = (self.base * self.height)/2
+        return f"triangle perimeter = {perimeter}\ntriangle area = {area}"
     
     
     

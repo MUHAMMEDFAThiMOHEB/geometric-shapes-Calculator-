@@ -3,13 +3,13 @@ Hello friend
 in this project, I'm trying to write a program to calculate the parameter and the area of any regular shape
 in arabic(اى شكل منتظم و الدائرة فقط) like square or rectangel beside one unregular shape which is circle
 
-Tue 29/4/2025
+### Tue 29/4/2025 ###
 
 Q1- first question came in my mind should i make one class for all and function for each shape, or class for each one
     chatGPT says the best practics is a perant class and chiled class for each shape
     I'd preferr to create one class for regular shpes and another one for unregular shpes
 
-Wed 30/4/2025
+### Wed 30/4/2025 ###
 
 Note- I think i need to review some math functions and topics
       define/determine the stucture that i will implement
@@ -23,6 +23,11 @@ in the future, new shapes will be added, and other improvments
 --> take_user_choise function generated
 --> choicess function generated
 --> add information of all included shapes as a comment
+
+### Sat 3/5/2025 ###
+
+--> build Triangle class
+--> customize Square class
 
 
     
