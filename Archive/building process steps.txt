@@ -2,6 +2,8 @@ Hello friend
 
 in this project, I'm trying to write a program to calculate the parameter and the area of any regular shape
 in arabic(اى شكل منتظم و الدائرة فقط) like square or rectangel beside one unregular shape which is circle
+as a start tha application will be some shapes as initiation phase
+then new shapes and features will be add In sequence
 
 ### Tue 29/4/2025 ###
 
@@ -11,9 +13,10 @@ Q1- first question came in my mind should i make one class for all and function 
 
 ### Wed 30/4/2025 ###
 
-Note- I think i need to review some math functions and topics
-      define/determine the stucture that i will implement
-      maybe i will build many versions of this app
+Note: 
+I think i need to review some math functions and topics
+define/determine the stucture that i will implement
+maybe i will build many versions of this app
 
 decided that the project will contain only [square, triangle, rectangel, rhombus].
 in the future, new shapes will be added, and other improvments 
@@ -28,6 +31,14 @@ in the future, new shapes will be added, and other improvments
 
 --> build Triangle class
 --> customize Square class
+
+### Sun 4/5/2025 ###
+
+--> build the (Rectangle, Rhombus, Circle) classes
+--> update the archive
+
+the next step is handle the work flow
+handle and customize program behaviour
 
 
     

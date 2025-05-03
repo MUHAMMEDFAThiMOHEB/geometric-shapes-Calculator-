@@ -48,7 +48,68 @@ class Triangle(GeometricShape):
         area = (self.base * self.height)/2
         return f"triangle perimeter = {perimeter}\ntriangle area = {area}"
     
+class Rectangle(GeometricShape):
+
+    def __init__(self):
+        self.lenght = None
+        self.width = None
+
+    def user_input(self):
+        self.length = int(input("Enter the length of the Rectangle: "))
+        self.width = int(input("Enter the width of the Rectangle: "))
+        return self.lenght, self.width
     
+    def info(self):
+        print(f"A quadrilateral with opposite sides equal and right angles;")
+        print(f"Perimeter = 2 × (length + width), Area = length × width")
+    
+    def calculates(self):
+        perimeter = (self.lenght + self.width)*2
+        area = self.base * self.height
+        return f"triangle perimeter = {perimeter}\ntriangle area = {area}"
+    
+class Rhombus(GeometricShape):
+
+    def __init__(self):
+        self.side = None
+        self.diagonal1 = None
+        self.diagonal2 = None
+
+    def user_input(self):
+        self.side = int(input("Enter the length of Rhombus side: "))
+        self.diagonal1 = int(input("Enter the length of diagonal1 : "))
+        self.diagonal2 = int(input("Enter the length of diagonal2 : "))
+        return self.side, self.diagonal1, self.diagonal2
+    
+    def info(self):
+        print(f"Rhombus: A quadrilateral with all sides equal and opposite angles equal;")
+        print(f"Perimeter = 4 × side, Area = (diagonal₁ × diagonal₂) ÷ 2")
+        print(f"Rhombus area also could be = the base x the height")
+    
+    def calculates(self):
+        perimeter = self.side * 4
+        area = self.diagonal1 * self.diagonal2
+        return f"Square perimeter = {perimeter}\nSquare area = {area}"
+    
+class Circle(GeometricShape):
+
+    def __init__(self):
+        self.radius = None
+
+    def user_input(self):
+        self.radius = int(input("Enter the length of Circle radius: "))
+        return self.radius
+    
+    def info(self):
+        print(f"Circle: A round shape with all points equidistant from the center;")
+        print(f"Perimeter (Circumference) = 2 × π × radius, Area = π × radius²")
+        print(f"π = 22/7")
+    
+    def calculates(self):
+        pi = 22/7
+        perimeter = 2* pi *self.radius 
+        area = pi * (self.radius ** 2)
+        return f"Square perimeter = {perimeter}\nSquare area = {area}"
     
 def take_user_choice(self):
     while True:
@@ -71,6 +132,7 @@ def display_choicess(self):
     }
     for key, value in shapes.items():
         print(f"[{key}]: {value}")
+
 
 
 # Square: A quadrilateral with four equal sides and right angles;
