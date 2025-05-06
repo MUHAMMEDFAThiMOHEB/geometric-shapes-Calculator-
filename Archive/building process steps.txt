@@ -40,5 +40,15 @@ in the future, new shapes will be added, and other improvments
 the next step is handle the work flow
 handle and customize program behaviour
 
+### Wed 7/5/2025 ###
+
+--> release the first Version of the project 🎉🎊
+--> Containerize the project (Add Dockerfile)
+
+Note: this will the first version LTS version
+      in the future InshaaAllah I will Customize and enhance the project more and more
+
+
+
 
     
